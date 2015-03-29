@@ -1,0 +1,7 @@
+Amiga
+Apple II
+Atari ST
+Commodore 64
+FM-Towns
+MSX
+PC Windows
