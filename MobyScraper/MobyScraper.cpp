@@ -249,8 +249,7 @@ LinkedList<String ^> ^Scraper::Get_ScreenShots(String ^url, String ^name, int cu
   int piccount = 0;
   while (curindex != -1) {
 
-    //curindex = page->IndexOf("col-xs-4 col-sm-4 col-md-2", curindex + 1);
-	curindex = page->IndexOf("div class=\"thumbnail\"", curindex + 1);
+    curindex = page->IndexOf("col-xs-4 col-sm-4 col-md-2", curindex + 1);
     if (curindex != -1) {
       picindex[piccount] = curindex;
       piccount++;
